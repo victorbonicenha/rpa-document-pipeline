@@ -1,4 +1,4 @@
-# RPA Document Pipeline — Garantia Volkswagen
+# RPA Document Pipeline
 
 Automação RPA em Python para autenticar no portal Volkswagen, localizar documentos de garantia no SDD, baixar arquivos pendentes, validar e organizar os documentos, extrair dados de planilhas Excel e persistir as informações em SQL Server para consumo analítico/BI.
 
@@ -91,7 +91,7 @@ A solução é composta por uma camada principal de orquestração (`rpa_pipelin
 | Selenium + ChromeDriver | Automatiza navegação, autenticação, cliques e downloads no portal. |
 | Pandas/OpenPyXL/XLRD | Lê e transforma planilhas Excel antes da carga no banco. |
 
-> Observação: o pacote `SolutionPacket` não está versionado neste repositório. Ele deve estar disponível no ambiente de execução ou ser substituído por implementações equivalentes.
+> Observação: o pacote `SolutionPacket` não está versionado neste repositório. Ele esta disponível no ambiente de execução e foi substituído por implementações equivalentes para demonstração.
 
 ---
 
@@ -378,7 +378,3 @@ Este projeto é um bom case para entrevistas por demonstrar experiência prátic
 - Visão de melhoria contínua e sustentação de automações corporativas.
 
 ---
-
-## Licença
-
-Este repositório não declara uma licença pública. Antes de reutilizar ou distribuir o código, confirme as regras internas da organização e a autorização do proprietário do projeto.
